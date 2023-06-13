@@ -7,4 +7,10 @@
   <color name="teal_700">#FF018786</color>
   <color name="black">#FF000000</color>
   <color name="white">#FFFFFFFF</color>
+
+  <color name="base_white">#FAFAFA</color>
+  <color name="base_black">#000A12</color>
+
+  <color name="category_title_text">@color/base_white</color>
+  <color name="game_title_text">@color/base_white</color>
 </resources>

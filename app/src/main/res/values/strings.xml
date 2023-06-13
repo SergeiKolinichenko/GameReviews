@@ -1,3 +1,4 @@
 <resources>
   <string name="app_name">GameReviews</string>
+  <string name="title_top_upcoming">Top upcoming</string>
 </resources>

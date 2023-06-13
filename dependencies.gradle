@@ -1,0 +1,12 @@
+ext.versions = [
+
+]
+
+ext.libs = [
+
+    coreKtx : 'androidx.core:core-ktx:1.10.1',
+    appcompat : 'androidx.appcompat:appcompat:1.6.1',
+    material : 'com.google.android.material:material:1.9.0',
+    constraintlayout : 'androidx.constraintlayout:constraintlayout:2.1.4',
+
+]
