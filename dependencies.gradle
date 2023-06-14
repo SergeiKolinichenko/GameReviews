@@ -1,5 +1,5 @@
 ext.versions = [
-
+    lifecycle : '2.6.1'
 ]
 
 ext.libs = [
@@ -8,5 +8,8 @@ ext.libs = [
     appcompat : 'androidx.appcompat:appcompat:1.6.1',
     material : 'com.google.android.material:material:1.9.0',
     constraintlayout : 'androidx.constraintlayout:constraintlayout:2.1.4',
-    fragment: "androidx.fragment:fragment-ktx:1.5.7"
+    fragment: "androidx.fragment:fragment-ktx:1.5.7",
+    viewmodel : "androidx.lifecycle:lifecycle-viewmodel-ktx:$versions.lifecycle",
+    livedata : "androidx.lifecycle:lifecycle-livedata-ktx:$versions.lifecycle",
+    annotation_processor : "androidx.lifecycle:lifecycle-common-java8:$versions.lifecycle"
 ]
