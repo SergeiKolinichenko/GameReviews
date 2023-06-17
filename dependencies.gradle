@@ -1,5 +1,6 @@
 ext.versions = [
-    lifecycle : '2.6.1'
+    lifecycle : '2.6.1',
+    adapter_delegates: '4.3.2'
 ]
 
 ext.libs = [
@@ -9,7 +10,13 @@ ext.libs = [
     material : 'com.google.android.material:material:1.9.0',
     constraintlayout : 'androidx.constraintlayout:constraintlayout:2.1.4',
     fragment: "androidx.fragment:fragment-ktx:1.5.7",
+
+    // lifecycle
     viewmodel : "androidx.lifecycle:lifecycle-viewmodel-ktx:$versions.lifecycle",
     livedata : "androidx.lifecycle:lifecycle-livedata-ktx:$versions.lifecycle",
-    annotation_processor : "androidx.lifecycle:lifecycle-common-java8:$versions.lifecycle"
+    annotation_processor : "androidx.lifecycle:lifecycle-common-java8:$versions.lifecycle",
+
+    // adapter_delegates
+    adapterDelegates : "com.hannesdorfmann:adapterdelegates4-kotlin-dsl:$versions.adapter_delegates",
+    adapterDelegatesViewBinding : "com.hannesdorfmann:adapterdelegates4-kotlin-dsl-viewbinding:$versions.adapter_delegates",
 ]
